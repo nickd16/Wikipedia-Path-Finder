@@ -14,6 +14,9 @@ a time where the chosen path has not been a shortest-path, but by the nature of 
 
 My idea behind the project was initially to build a shortest-path finder. However, I did notice a lot of people have already created a shortest-path finder and I did not want my project to be the same thing everyone else has done. I decided on this idea of finding a path using multi-threading to instead center my project around speed in how fast I can find a path. And after running my algorithm, it is clear that it is much faster in finding a path. To find an optimal shortest-path, you have to breadth first search from the starting position with only the main thread and that process is extremely slow and there is not much you can do about that. It can take over 40 seconds to find 4-hop paths doing it that way. The algorithm I have created finds the shortest path most of the time and can find a lot of 4+ hop paths in under 10 seconds. I will show a few examples below. 
 
+Credit: I would like to credit some of the project to the youtuber "CodingWithTim". I learned how to crawl the web using jsoup through his videos. Although my web crawler is very different there are some things I learned from his code I incorporated into mine.
+His youtube link -> https://www.youtube.com/c/CodingWithTim
+
 I hope you like the project!
 Also if you would like to run the code yourself make sure you have the jsoup.jar file in your classpath
 
